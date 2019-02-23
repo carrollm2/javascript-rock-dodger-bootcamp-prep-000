@@ -105,7 +105,6 @@ function createRock(x) {
      if (top < 400){
        window.requestAnimationFrame(moveRock)
      } else {
-       console.log(document.body.childNodes)
        GAME.removeChild(rock)
      }
 
