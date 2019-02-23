@@ -102,7 +102,7 @@ function createRock(x) {
         * we should remove the rock from the DOM
         */
 
-     if (top <= 400){
+     if (top < 400){
        window.requestAnimationFrame(moveRock)
      } else {
        console.log(top)
