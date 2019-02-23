@@ -101,6 +101,7 @@ function createRock(x) {
         * But if the rock *has* reached the bottom of the GAME,
         * we should remove the rock from the DOM
         */
+     console.log(top)
      if (top < 400){
        window.requestAnimationFrame(moveRock)
      } else {
