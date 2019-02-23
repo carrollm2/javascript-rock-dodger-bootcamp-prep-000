@@ -72,7 +72,7 @@ function createRock(x) {
    * it to GAME and move it downwards.
    */
   //GAME.appendChild(rock)
-  document.appendChild(rock)
+  window.appendChild(rock)
 
   /**
    * This function moves the rock. (2 pixels at a time
@@ -107,7 +107,7 @@ function createRock(x) {
        window.requestAnimationFrame(moveRock)
      } else {
        //GAME.removeChild(rock)
-       document.removeChild(rock)
+       window.removeChild(rock)
      }
 
   }
