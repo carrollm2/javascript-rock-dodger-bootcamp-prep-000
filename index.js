@@ -105,7 +105,7 @@ function createRock(x) {
      if (top < 400){
        window.requestAnimationFrame(moveRock)
      } else {
-       rockToRemove = document.querySelector(".rock")
+       rockToRemove = GAME.querySelector(".rock")
        GAME.removeChild(rockToRemove)
      }
 
